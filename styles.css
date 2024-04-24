@@ -57,3 +57,29 @@
 .group1>img, .group2> img{
     padding: 20px;
 }
+
+.about{
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/body.png');
+    padding: 100px;
+    justify-content: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.about-title{
+    font-size: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.about-text{
+    padding: 30px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 7px 5px 20px 0px;
+    margin-top: 30px;
+}
